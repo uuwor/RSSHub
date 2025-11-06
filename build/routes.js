@@ -16345,7 +16345,8 @@ export default {
           "hyoban"
         ],
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "view": 3,
         "example": "/bilibili/ranking/all",
@@ -44159,8 +44160,7 @@ export default {
       "/live": {
         "path": "/live",
         "categories": [
-          "finance",
-          "popular"
+          "finance"
         ],
         "view": 0,
         "example": "/gelonghui/live",
