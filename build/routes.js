@@ -23796,6 +23796,36 @@ export default {
         "location": "cdrw.ts",
         "module": () => import('@/routes/cdu/cdrw.ts')
       },
+      "/cdyw": {
+        "path": "/cdyw",
+        "categories": [
+          "university"
+        ],
+        "example": "/cdu/cdyw",
+        "parameters": {},
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": false
+        },
+        "radar": [
+          {
+            "source": [
+              "news.cdu.edu.cn/"
+            ]
+          }
+        ],
+        "name": "成大要闻",
+        "maintainers": [
+          "uuwor"
+        ],
+        "url": "news.cdu.edu.cn/",
+        "location": "cdyw.ts",
+        "module": () => import('@/routes/cdu/cdyw.ts')
+      },
       "/jwgg": {
         "path": "/jwgg",
         "categories": [

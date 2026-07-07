@@ -504,6 +504,7 @@ export type RoutePath =
   | `/cde/zdyz/:category`
   | `/cdi/:id?`
   | `/cdu/cdrw`
+  | `/cdu/cdyw`
   | `/cdu/jwgg`
   | `/cdu/tzggcdunews`
   | `/cdzjryb/zw/projectList`
